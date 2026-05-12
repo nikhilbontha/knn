@@ -1,0 +1,51 @@
+why do we need knn?
+ knn is used for
+       1. classification problem
+       2. recodimention system 
+       3. pattern recogsistion
+       4. similarity based prediction
+
+  example:
+    . netfix--movie recommend system
+    . customer segementation
+    . handwritting recogsistion
+    . disease prediction
+
+what is knn?
+ . k nearest neighbour
+ . knn works using similarty and distance
+ . it doesnt learn equation like logsistic , linear regression and svm.
+
+how knn works?
+ step:1
+        choose the k value (i.e: k=3 it will consider the surrounding 3 points) 
+    :2   
+        find the nearest neighbours
+    :3
+        check majority class
+    :4
+        assign predicted class  
+
+distances metrics:
+     knn depends on distance
+       1.eucliden distance
+         formula:
+            --> distance=sqrt((x2-x1)**2+(y2-y1)**2)
+            --> it is used for continuos numerical data
+
+       2.manhattan distance
+            it is a grid based distance
+
+       3.minkwski distance
+            it is a genralized distance
+
+       4.hamming distance
+            it is a binary categorical data
+
+we need to select k value how we choose the k value :
+
+    if we choose the small value it should be the overfitting. 
+    
+    if we choose the big value it should be the underfitting.
+
+    
